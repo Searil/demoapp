@@ -1,0 +1,25 @@
+<!doctype html>
+<title>My application deployed automatically</title>
+  <h1>Hello, World!</h1>
+  
+    Result is {{result}}
+  
+  
+  Enter an array of elements using yaml format in the first form. <br/>
+  The second form accepts a single value.<br/>
+  The value entered in the second form is searched in the first form values. <br/>
+  If it is found, then the result is True. <br/>
+  An example input for the first form is:</br>
+  - A<br/>
+  - B<br/>
+  - C<br/>
+  - D<br/>
+
+  <form action="compute" method="post">
+  <textarea name="input1" rows="10" cols="30">
+  </textarea>
+  <textarea name="input2" rows="10" cols="30">
+  </textarea>
+  <br>
+  <input type="submit">
+  </form>
